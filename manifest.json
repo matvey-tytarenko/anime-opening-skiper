@@ -11,5 +11,11 @@
             "css": ["style.css"],
             "run_at": "document_idle"
         }
-    ]
+    ],
+    "icons": {
+        "16": "./pictures/icon-16.png",
+        "48": "./pictures/icon-48.png",
+        "96": "./pictures/icon-96.png",
+        "128": "./pictures/icon-128.png"
+    }
 }
