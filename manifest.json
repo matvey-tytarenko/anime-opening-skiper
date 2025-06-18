@@ -1,0 +1,15 @@
+{
+    "manifest_version": 2,
+    "name": "Opening skiper",
+    "version": "1.1",
+    "description": "Skip Anime Opening for all anime websites",
+    "permissions": ["tabs"],
+    "content_scripts": [
+        {
+            "matches": ["<all_urls>"],
+            "js": ["skip.js"],
+            "css": ["style.css"],
+            "run_at": "document_idle"
+        }
+    ]
+}

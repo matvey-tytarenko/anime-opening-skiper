@@ -1,0 +1,23 @@
+:root {
+    --bg: rgba(0, 0, 0, 0.7);
+    --hovr: rgba(255, 0, 0, 0.8);
+}
+
+#skip-opener-btn {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    z-index: 9999;
+    background: var(--bg);
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    padding: 10px 15px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: opacity 0.3s;
+}
+
+#skip-opener-btn:hover {
+    background: var(--hovr);
+}
